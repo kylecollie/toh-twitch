@@ -1,5 +1,11 @@
 <div class="page-content">
-  <p>
-    heroes works!
-  </p>
+  <h3>Heroes</h3>
+
+  <mat-list role="list" *ngIf="heroes && heroes.length">
+    <mat-list-item role="listitem" *ngFor="let hero of heroes">
+      <div>{{ hero.name}}</div>
+    </mat-list-item>
+  </mat-list>
+
+
 </div>
