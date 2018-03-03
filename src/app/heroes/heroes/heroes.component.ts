@@ -6,7 +6,7 @@ import { HeroDataService } from "../hero-data.service";
 @Component({
   selector: "toh-heroes",
   templateUrl: "./heroes.component.html",
-  styleUrls: ["./heroes.component.css"]
+  styleUrls: ["./heroes.component.scss"]
 })
 export class HeroesComponent implements OnInit {
   heroes: Hero[];
