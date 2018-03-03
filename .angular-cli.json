@@ -15,7 +15,14 @@
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "toh",
-      "styles": ["styles.scss"],
+      "styles": [
+        "styles/theme.scss",
+        "styles/mixin.scss",
+        "styles/styles.scss"
+      ],
+      "stylePreprocessorOptions": {
+        "includePaths": ["styles"]
+      },
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
